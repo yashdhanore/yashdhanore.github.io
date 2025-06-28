@@ -1,157 +1,943 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>YashDhanore-Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Yash Dhanore - Software Engineer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Software engineer specializing in LLM apps & cloud ML. Building production AI solutions at scale." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #0070f3;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #888;
+            --background: #ffffff;
+            --surface: #f8f9fa;
+            --border: #e1e8ed;
+            --hover-bg: #f5f5f5;
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            --spacing-2xl: 4rem;
+            --border-radius: 8px;
+            --transition: all 0.2s ease;
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-				<!-- Header -->
-					 <header id="header" class="alt">
-						<a class="logo"><strong>Portfoli</strong></a>
-					</header> 
-				<!-- Banner -->
-					 <section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Hi, My name is Yash Dhanore</h1>
-							</header>
-							<div class="content">
-								<p>A passionate developer but more importantly <br />
-								a passionate problem solver.</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Check out</a></li>
-								</ul>
-							</div>
-						</div>
-					</section> 
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--background);
+            font-size: 16px;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        /* Typography */
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: var(--spacing-md);
+        }
 
-						<h1>Hey this is a website</h1>
-						<div class="cushycms"></div>
-						<!-- One -->
-							 <section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/1stpic.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="https://github.com/yashdhanore/IS1200Alphablaster" class="link">C</a></h3>
-										<p>C project implemented by me and my partner in PIC chipkit. The structure, score and collision was implemented by me.</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/top.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="https://github.com/yashdhanore/AI/blob/main/OMGYESS!.ipynb" class="link">Neural Network</a></h3>
-										<p>Pyhton project implemented by me and my partner, A handwritten number identifier.The building of the network and pre-processing of data was done by me.</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/onemore.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="https://github.com/yashdhanore/python" class="link">Python</a></h3>
-										<p>Space invaders game</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/great.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a class="link">More Coming up</a></h3>
-									</header>
-								</article>
-							</section> 
+        h2 {
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-md);
+        }
 
-						<!-- Two -->
-						
-							 <section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>About me</h2>
-									</header>
-									<p>A creative and determined person that follows a proactive approach to tasks at hand. Eager to offer solutions and open to new ideas.
-										I aim to establish myself as an achiever and give back to society by developing technology.
-									</p>
-								</div>
-							</section>
-							<section style="background:rgb(72, 43, 80);" id="One">
-								<div class="inner">
-									<header class="major">
-										<h2>Education</h2>
-									</header>
-									<ul>
-										<li>Bachelor's in ICT (180 credits) at KTH, Stockholm</li>
-										<li>Bachelor in Network Security (60 credits) at Linnaeus University, Vaxjo</li>
-										<li>12th Std (89%) at Indira National School, Pune</li>
-										<li>10th Std (93%) at Indira National School, Pune</li>
-									</ul>
-								</div>
-							</section>
-							<section style="background:rgb(207, 122, 162);" id="One">
-								<div class="inner">
-									<header class="major">
-										<h2>Technical Skills</h2>
-									</header>
-									<ul>
-										<li>C++, Java</li>
-										<li>OOP, Data Structures and Algorithms</li>
-										<li>Git, Agile development, Command Line</li>
-										<li>Game development using Godot</li>
-										<li>Mathematics</li>
-										<li>Photoshop</li>
-									</ul>
-								</div>
-							</section> 
-					</div>
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
 
-				<!-- Contact -->
-					 <section id="contact">
-						<div class="inner">
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">yashdhanore@gmail.com</a>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section> 
+        p {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+            max-width: 70ch;
+        }
 
-				<!-- Footer -->
-					 <footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/yashdhanore?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-						</div>
-					</footer> 
+        .lead {
+            font-size: 1.25rem;
+            color: var(--text-primary);
+            font-weight: 400;
+            max-width: 80ch;
+        }
 
-			</div>
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        .section {
+            padding: var(--spacing-2xl) 0;
+        }
 
-	</body>
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            transition: var(--transition);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-sm) 0;
+        }
+
+        .logo {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: var(--spacing-lg);
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: calc(80px + var(--spacing-2xl)) 0 var(--spacing-2xl);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .hero-text {
+            width: 100%;
+			margin-left: -10em;
+        }
+
+        .hero-text h1 {
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: var(--spacing-xl);
+            margin: var(--spacing-xl) 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #0051cc;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--hover-bg);
+            border-color: var(--primary-color);
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-lg);
+            flex-wrap: wrap;
+        }
+
+        /* Work Experience Section */
+        .experience-timeline {
+            position: relative;
+            margin-top: var(--spacing-xl);
+        }
+
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary-color), var(--border));
+        }
+
+        .experience-item {
+            position: relative;
+            padding-left: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            padding: var(--spacing-lg);
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .experience-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-color);
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: var(--spacing-lg);
+            width: 16px;
+            height: 16px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 3px solid var(--background);
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-sm);
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+        }
+
+        .experience-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .experience-company {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .experience-period {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .experience-location {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .experience-description {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .experience-highlights {
+            list-style: none;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .experience-highlights li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .experience-highlights li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .experience-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+        }
+
+        .experience-tech .tech-tag {
+            background: rgba(0, 112, 243, 0.1);
+            color: var(--primary-color);
+            border-color: rgba(0, 112, 243, 0.2);
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-xl);
+        }
+
+        .project-card {
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            padding: var(--spacing-lg);
+            transition: var(--transition);
+            border: 1px solid var(--border);
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-color);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .project-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .project-company {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+            margin-top: var(--spacing-md);
+        }
+
+        .tech-tag {
+            background: var(--background);
+            color: var(--text-secondary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            border: 1px solid var(--border);
+        }
+
+        .impact-metrics {
+            background: rgba(0, 112, 243, 0.05);
+            border-left: 3px solid var(--primary-color);
+            padding: var(--spacing-sm);
+            margin: var(--spacing-md) 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .impact-metrics p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            color: var(--text-primary);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-xl);
+        }
+
+        .skill-category {
+            background: var(--surface);
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            border: 1px solid var(--border);
+        }
+
+        .skill-category h3 {
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+        }
+
+        .skill-item {
+            background: var(--background);
+            padding: 0.5rem 0.75rem;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+        }
+
+        /* Contact Section */
+        .contact-links {
+            display: flex;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .contact-link:hover {
+            color: var(--primary-color);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--surface);
+            text-align: center;
+            padding: var(--spacing-lg) 0;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero {
+                padding-top: calc(60px + var(--spacing-lg));
+                min-height: auto;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-lg);
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">Yash Dhanore</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="hero-text">
+                    <h1>Hi, I'm Yash Dhanore.</h1>
+                    <p class="lead">Software engineer specializing in full stack applications. I design and ship production AI enabled applications that solve real business problems and drive measurable impact.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="mailto:yashdhanore@gmail.com" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="lead">A passionate problem solver who loves building things that matter.</p>
+            <p>Currently working as a Software Engineer at Scania AB, where I specialize in AI/ML solutions and cloud architecture. I have a strong foundation in computer science fundamentals and enjoy shipping high-impact features at scale.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or working on side projects that challenge me to learn and grow.</p>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <p>My professional journey building production systems and solving real-world problems.</p>
+            
+            <div class="experience-timeline">
+                <!-- Scania AB -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Software Engineer, AI/ML</h3>
+                            <div class="experience-company">Scania AB</div>
+                            <div class="experience-location">Stockholm, Sweden</div>
+                        </div>
+                        <div class="experience-period">May 2023 – Present</div>
+                    </div>
+                    
+                    <p class="experience-description">
+                        Leading AI/ML initiatives and building production-ready solutions that directly impact business operations and training efficiency.
+                    </p>
+                    
+                    <ul class="experience-highlights">
+                        <li>Designed and shipped a production RAG assistant for Agile coaches, reducing content lookup time by ~40%</li>
+                        <li>Built ingestion pipelines synchronizing ~1000 SharePoint & Confluence documents to CosmosDB</li>
+                        <li>Automated infrastructure deployment with Terraform & GitLab CI, enabling <10min instance deployment</li>
+                        <li>Showcased solutions to senior leadership, securing additional funding for new AI use cases</li>
+                    </ul>
+                    
+                    <div class="experience-tech">
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Azure</span>
+                        <span class="tech-tag">CosmosDB</span>
+                        <span class="tech-tag">Terraform</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">GitLab CI</span>
+                    </div>
+                </div>
+
+                <!-- Holid -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Junior Developer</h3>
+                            <div class="experience-company">Holid</div>
+                            <div class="experience-location">Stockholm, Sweden</div>
+                        </div>
+                        <div class="experience-period">March 2023 – May 2023</div>
+                    </div>
+                    
+                    <p class="experience-description">
+                        Developed data analytics platform processing advertising events and delivering actionable insights.
+                    </p>
+                    
+                    <ul class="experience-highlights">
+                        <li>Built data analytics platform processing daily ad events from client websites</li>
+                        <li>Integrated Prebid.js insights into dashboard, eliminating manual reporting processes</li>
+                        <li>Optimized data pipelines ensuring accurate and actionable insights for advertisers</li>
+                    </ul>
+                    
+                    <div class="experience-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Data Analytics</span>
+                        <span class="tech-tag">Prebid.js</span>
+                        <span class="tech-tag">Dashboard Development</span>
+                    </div>
+                </div>
+
+                <!-- Driftio AB -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Full-stack Developer</h3>
+                            <div class="experience-company">Driftio AB</div>
+                            <div class="experience-location">Stockholm, Sweden</div>
+                        </div>
+                        <div class="experience-period">June 2022 – Feb 2023</div>
+                    </div>
+                    
+                    <p class="experience-description">
+                        Maintained and enhanced Angular + Elixir application with focus on stability and user experience.
+                    </p>
+                    
+                    <ul class="experience-highlights">
+                        <li>Stabilized Angular + Elixir application through comprehensive bug fixing and deployment to Google Cloud</li>
+                        <li>Refined UI for new features enabling users to view assets in unified dashboard</li>
+                        <li>Developed RESTful APIs ensuring smooth front-end and back-end integration</li>
+                    </ul>
+                    
+                    <div class="experience-tech">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Elixir</span>
+                        <span class="tech-tag">Google Cloud</span>
+                        <span class="tech-tag">RESTful APIs</span>
+                        <span class="tech-tag">UI/UX</span>
+                    </div>
+                </div>
+
+                <!-- THS Armada -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Web Developer (Volunteer)</h3>
+                            <div class="experience-company">THS Armada</div>
+                            <div class="experience-location">Stockholm, Sweden</div>
+                        </div>
+                        <div class="experience-period">May 2022 – Dec 2023</div>
+                    </div>
+                    
+                    <p class="experience-description">
+                        Led development team building web application from scratch for major career fair event.
+                    </p>
+                    
+                    <ul class="experience-highlights">
+                        <li>Built web app from scratch with ~400 daily active users during two-day fair</li>
+                        <li>Gamified physical fair experience, used by 12 companies generating 50K+ SEK revenue</li>
+                        <li>Collaborated with product management team implementing new features and user experience improvements</li>
+                    </ul>
+                    
+                    <div class="experience-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Product Management</span>
+                        <span class="tech-tag">Event Technology</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p>Here are some projects I'm particularly proud of, showcasing my experience in AI/ML, full-stack development, and cloud architecture.</p>
+            
+            <div class="projects-grid">
+                <!-- Bookopedia -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Bookopedia</h3>
+                            <div class="project-company">Personal Project</div>
+                        </div>
+                    </div>
+                    <p>Full-stack open source web application for book enthusiasts to track reading progress and discover new books through personalized recommendations.</p>
+                    
+                    <div class="impact-metrics">
+                        <p><strong>Features:</strong> Multiple reading shelves, recommendation engine, and social reading features</p>
+                    </div>
+                    
+                    <p>Built with modern web technologies and deployed to Firebase, featuring a responsive design and intelligent book recommendation system based on user reading patterns.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Express.js</span>
+                    </div>
+                </div>
+
+                <!-- THS Armada Web App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Armada Fair Web App</h3>
+                            <div class="project-company">THS Armada</div>
+                        </div>
+                    </div>
+                    <p>Led development of a gamified web application that enhanced the physical fair experience for students and companies, driving engagement and revenue.</p>
+                    
+                    <div class="impact-metrics">
+                        <p><strong>Impact:</strong> 400+ daily active users, 12 companies engaged, 50K SEK generated</p>
+                    </div>
+                    
+                    <p>Collaborated closely with product management to implement new features and ensure seamless user experience during the two-day event.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Product Management</span>
+                    </div>
+                </div>
+
+                <!-- Park5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Park5</h3>
+                            <div class="project-company">Personal Project</div>
+                        </div>
+                    </div>
+                    <p>Mobile application helping users find and share parking spots in urban areas, solving a common city problem with technology.</p>
+                    
+                    <div class="impact-metrics">
+                        <p><strong>Innovation:</strong> Peer-to-peer parking space sharing with real-time availability</p>
+                    </div>
+                    
+                    <p>Developed both Android app and mobile web version with integrated Google Maps API and RESTful backend services.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Android Studio</span>
+                        <span class="tech-tag">Google Maps API</span>
+                        <span class="tech-tag">RESTful API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <p>A comprehensive toolkit built through professional experience and continuous learning.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">React Native</span>
+                        <span class="skill-item">Angular</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">LangChain</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Azure</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Terraform</span>
+                        <span class="skill-item">GitLab CI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Data & Databases</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">CosmosDB</span>
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p class="lead">I'm always interested in new opportunities and interesting projects.</p>
+            <p>Whether you're looking for a software engineer who can ship AI solutions at scale, or you just want to chat about technology, I'd love to hear from you.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:yashdhanore@gmail.com" class="contact-link">
+                    <span>✉️</span>
+                    <span>yashdhanore@gmail.com</span>
+                </a>
+                <a href="https://github.com/yashdhanore" class="contact-link" target="_blank">
+                    <span>🔗</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/yashdhanore" class="contact-link" target="_blank">
+                    <span>💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="tel:+46727636403" class="contact-link">
+                    <span>📱</span>
+                    <span>+46 727 636 403</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yash Dhanore. Built with modern web technologies and attention to detail.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header background on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe project cards and skill categories
+        document.querySelectorAll('.project-card, .skill-category, .experience-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
 </html>
